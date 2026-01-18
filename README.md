@@ -142,7 +142,7 @@ Filled orders are removed from the order book but retained in order history.
 ---
 
 ## Setup Instructions
-
+go mod tidy
 
 ### Run the Server
 ```bash
