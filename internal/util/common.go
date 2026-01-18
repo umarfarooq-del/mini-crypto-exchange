@@ -11,7 +11,6 @@ type RouterConfig struct {
 	MatchingEngine interface{}
 }
 
-// ServerToProtoError ...
 func ServerToError(err error) *Error {
 	errorProto := &Error{
 		Code:    err.(*apperrors.ServerError).Code,
